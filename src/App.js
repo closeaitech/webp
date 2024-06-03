@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Countdown from 'react-countdown';
 
 function App() {
 
@@ -9,9 +8,9 @@ function App() {
       <div className="content">
         <h2 className="app">CLOSEAI</h2>
         <h1 className="coming"><span id="col">COMING</span></h1>
-        
+
         <h1 className="coming"><span id="col">SOON</span></h1>
-       
+
       </div>
     </div>
   );
