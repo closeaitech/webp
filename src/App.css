@@ -41,6 +41,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 body {
+  align-items: center;
   background-color: black;
   margin: 0;
   display: flex;
@@ -78,26 +79,25 @@ body {
   margin: 0;
 }
 
-#col {
-  /* background-color: rgba(92, 97, 246, 0.527); */
-  margin-left: 25px;
-  border-radius: 15px;
-  padding-right: 11px;
-  padding-left: 11px;
-}
 
 
 .app {
-  width: 100%;
+  width: 90%;
   font-size: xx-large;
-  
   font-family: 'Abel', sans-serif;
   letter-spacing:15px;
   color: white;
   margin-bottom: 8px;
   text-shadow: none;
+  align-items: center;
 }
 
-h1 {
-  display: flex;
+@media screen and (max-width:450px){
+  .app{
+    font-size: 80%;
+    width: 60%;
+    letter-spacing: 10px;
+    margin-bottom: 2px;
+  }
+  
 }
