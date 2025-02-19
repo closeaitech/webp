@@ -9,7 +9,7 @@ const Navbar = () => (
         <div className="flex items-center">
           <a href="/" className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">ProtectAI</span>
+            <span className="text-xl font-bold text-gray-900">CloseAI</span>
           </a>
         </div>
         
@@ -101,7 +101,7 @@ const LLMSecurityPage = () => {
           </h1>
           
           <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
-            ProtectAI's comprehensive security suite ensures your sensitive data remains protected 
+            CloseAI's comprehensive security suite ensures your sensitive data remains protected 
             while maintaining full compliance with Indian regulations.
           </p>
 

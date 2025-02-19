@@ -12,12 +12,14 @@ const Navbar = () => (
         <a href="/" className="flex items-center space-x-2">
           <Shield className="h-8 w-8 text-blue-600" />
           <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">
-            ProtectAI
+            CloseAI
           </span>
         </a>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How it Works</a>
-          <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
+          <a href="#solutions" className="text-gray-600 hover:text-blue-600 transition-colors">Our Solutions</a>
+          <a href="#about-us" className="text-gray-600 hover:text-blue-600 transition-colors">About us</a>
+          <a href="#contact-us" className="text-gray-600 hover:text-blue-600 transition-colors">Contact us</a>
+
           <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all hover:scale-105">
             Try it Free
           </button>

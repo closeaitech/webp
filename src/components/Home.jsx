@@ -65,18 +65,18 @@ const LandingPage = () => {
   const faqData = [
     {
       id: 1,
-      question: "What types of sensitive data can ProtectAI detect and protect?",
-      answer: "ProtectAI can detect and protect various types of sensitive data including Aadhaar numbers, PAN cards, financial credentials, API keys, database passwords, and personal identifiable information. Our system is specifically designed for Indian data formats and regulatory requirements."
+      question: "What types of sensitive data can CloseAI detect and protect?",
+      answer: "CloseAI can detect and protect various types of sensitive data including Aadhaar numbers, PAN cards, financial credentials, API keys, database passwords, and personal identifiable information. Our system is specifically designed for Indian data formats and regulatory requirements."
     },
     {
       id: 2,
-      question: "How does ProtectAI ensure compliance with Indian regulations?",
+      question: "How does CloseAI ensure compliance with Indian regulations?",
       answer: "Our platform is built to comply with Indian data protection laws including the Personal Data Protection Bill (PDPB) and IT Rules 2021. We ensure that sensitive data never reaches the LLM and implement proper data anonymization techniques."
     },
     {
       id: 3,
-      question: "What is prompt injection and how does ProtectAI prevent it?",
-      answer: "Prompt injection is a type of attack where malicious inputs manipulate the LLM to disclose confidential information. ProtectAI identifies and blocks such attempts in real-time, preventing unauthorized access and maintaining the integrity of AI interactions."
+      question: "What is prompt injection and how does CloseAI prevent it?",
+      answer: "Prompt injection is a type of attack where malicious inputs manipulate the LLM to disclose confidential information. CloseAI identifies and blocks such attempts in real-time, preventing unauthorized access and maintaining the integrity of AI interactions."
     },
     {
       id: 4,
@@ -85,13 +85,13 @@ const LandingPage = () => {
     },
     {
       id: 5,
-      question: "Can ProtectAI be integrated with existing AI systems?",
-      answer: "Yes, ProtectAI is designed for seamless integration with existing AI systems. Our platform works as a security layer that sits between your application and the LLM, requiring minimal changes to your existing infrastructure."
+      question: "Can CloseAI be integrated with existing AI systems?",
+      answer: "Yes, CloseAI is designed for seamless integration with existing AI systems. Our platform works as a security layer that sits between your application and the LLM, requiring minimal changes to your existing infrastructure."
     },
     {
       id: 6,
-      question: "What industries can benefit from ProtectAI?",
-      answer: "ProtectAI is particularly valuable for industries handling sensitive data, including banking and finance, healthcare, e-commerce, and customer service. Any organization using AI while dealing with personal or confidential information can benefit from our solution."
+      question: "What industries can benefit from CloseAI?",
+      answer: "CloseAI is particularly valuable for industries handling sensitive data, including banking and finance, healthcare, e-commerce, and customer service. Any organization using AI while dealing with personal or confidential information can benefit from our solution."
     }
   ];
 
@@ -111,7 +111,7 @@ const LandingPage = () => {
           <div className="h-16 flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Shield className="h-6 w-6 text-blue-600" />
-              <span className="text-xl font-semibold">ProtectAI</span>
+              <span className="text-xl font-semibold">CloseAI</span>
             </div>
             
             {/* Desktop Navigation */}
@@ -163,7 +163,7 @@ const LandingPage = () => {
                 Our advanced scanning system automatically detects and redacts sensitive information before it reaches the LLM. This ensures complete data isolation and prevents inadvertent exposure of private data.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                With ProtectAI, your organization can confidently leverage AI capabilities while maintaining the highest standards of data privacy and regulatory compliance.
+                With CloseAI, your organization can confidently leverage AI capabilities while maintaining the highest standards of data privacy and regulatory compliance.
               </p>
             </div>
             <div className="flex-1">
@@ -185,7 +185,7 @@ const LandingPage = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">Stay Compliant with Indian Regulations</h2>
               <p className="text-xl text-blue-600 mb-4">Navigate complex regulatory requirements with confidence</p>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                India's evolving data protection laws, including PDPB and IT Rules 2021, demand robust privacy measures. ProtectAI ensures your AI implementations meet all regulatory requirements.
+                India's evolving data protection laws, including PDPB and IT Rules 2021, demand robust privacy measures. CloseAI ensures your AI implementations meet all regulatory requirements.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Avoid severe legal and financial consequences while building trust with your users through demonstrated commitment to data protection.
@@ -210,7 +210,7 @@ const LandingPage = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">Seamless Security Integration</h2>
               <p className="text-xl text-blue-600 mb-4">Enhance your AI security without disrupting operations</p>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                ProtectAI works as a comprehensive security layer that integrates smoothly with your existing AI infrastructure. No major changes to your current systems are required.
+                CloseAI works as a comprehensive security layer that integrates smoothly with your existing AI infrastructure. No major changes to your current systems are required.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Start protecting your AI interactions immediately with our plug-and-play solution designed specifically for Indian enterprises.
@@ -235,7 +235,7 @@ const LandingPage = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">Accelerate Business Growth</h2>
               <p className="text-xl text-blue-600 mb-4">Unlock new opportunities with secure AI implementations</p>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                Security-conscious enterprises often hesitate to adopt AI solutions without visible security assurances. ProtectAI helps you build trust and expand your market reach.
+                Security-conscious enterprises often hesitate to adopt AI solutions without visible security assurances. CloseAI helps you build trust and expand your market reach.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Join leading organizations like HDFC Bank and ICICI Bank in leveraging secure AI solutions for business growth and innovation.
@@ -256,7 +256,7 @@ const LandingPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-2 text-center">Frequently Asked Questions</h2>
-          <p className="text-gray-600 mb-12 text-center">Everything you need to know about ProtectAI</p>
+          <p className="text-gray-600 mb-12 text-center">Everything you need to know about CloseAI</p>
           
           <div className="space-y-4">
             {faqData.map((faq) => (
